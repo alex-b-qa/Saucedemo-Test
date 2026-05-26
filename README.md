@@ -58,7 +58,7 @@ This project documents end-to-end manual and automated testing performed on the 
 - Automation focused on repeatable, business-critical functionality  
 
 **📁 Location:**  
-`/cypress/e2e/`
+`/cypress-e2e/`
 
 ### Automation Strategy
 Manual test cases were reviewed and prioritized based on:
