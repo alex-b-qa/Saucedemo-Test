@@ -1,90 +1,90 @@
-Sauce Demo – QA Testing Portfolio
+# Sauce Demo – QA Testing Portfolio
 
-Project Overview
+## Project Overview
 This project documents end-to-end manual and automated testing performed on the Sauce Demo web application, a sample e-commerce site.
-	•	Application Under Test: Sauce Demo
-	•	URL: https://www.saucedemo.com
-	•	Testing Types: Manual Testing, Automated Testing (Cypress)
-	•	Purpose: Demonstrate practical QA skills including test case design, execution, defect tracking, and basic automation
 
-Scope of Testing
+* **Application Under Test:** Sauce Demo
+* **URL:** https://www.saucedemo.com
+* **Testing Types:** Manual Testing, Automated Testing (Cypress)
+* **Purpose:** Demonstrate practical QA skills including test case design, execution, defect tracking, and basic automation
+
+---
+
+## Scope of Testing
 The following features were tested:
-	•	User authentication (valid and invalid login)
-	•	Product inventory page
-	•	Shopping cart functionality
-	•	Checkout process
-Out of Scope:
-	•	Performance testing
-	•	Security testing
-	•	API testing
-	•	Cross-browser testing
 
-Test Artifacts
-Manual Testing
-	•	Created 20 manual test cases covering login, inventory, cart, and checkout flows
-	•	Included positive, negative, and edge-case scenarios
-	•	Executed test cases and recorded expected vs actual results
-	•	Managed test cases and test execution using Jira and Zephyr Scale
-	•	Linked defects to related test cases for traceability
-📁 Location: /manual-testing/
+* User authentication (valid and invalid login)
+* Product inventory page
+* Shopping cart functionality
+* Checkout process
 
-Defect Tracking
-	•	Logged defects with:
-	◦	Clear steps to reproduce
-	◦	Expected vs actual behavior
-	◦	Severity and priority
-	•	Tracked and managed bugs in Jira
-	•	Linked defects to corresponding test cases in Zephyr Scale
-📁 Location: /bug-reports/
+**Out of Scope:**
+* Performance testing
+* Security testing
+* API testing
+* Cross-browser testing
 
-Automated Testing (Cypress)
-	•	Implemented end-to-end automated tests using Cypress
-	•	Automated high-value regression scenarios:
-	◦	Valid login
-	◦	Invalid login
-	◦	Cart and checkout flow
-	•	Automation focused on repeatable, business-critical functionality
-📁 Location: /cypress/e2e/
+---
 
-Automation Strategy
+## Test Artifacts
+
+### Manual Testing
+* Created 20 manual test cases covering login, inventory, cart, and checkout flows
+* Included positive, negative, and edge-case scenarios
+* Executed test cases and recorded expected vs actual results
+* Managed test cases and test execution using Jira and Zephyr Scale
+* Linked defects to related test cases for traceability
+
+📁 **Location:** `/manual-testing/`
+
+### Defect Tracking
+* Logged defects with:
+  * Clear steps to reproduce
+  * Expected vs actual behavior
+  * Severity and priority
+* Tracked and managed bugs in Jira
+* Linked defects to corresponding test cases in Zephyr Scale
+
+📁 **Location:** `/bug-reports/`
+
+### Automated Testing (Cypress)
+* Implemented end-to-end automated tests using Cypress
+* Automated high-value regression scenarios:
+  * Valid login
+  * Invalid login
+  * Cart and checkout flow
+* Automation focused on repeatable, business-critical functionality
+
+📁 **Location:** `/cypress/e2e/`
+
+---
+
+## Automation Strategy
 Manual test cases were reviewed and prioritized based on:
-	•	Business impact
-	•	Regression risk
-	•	Test repeatability
+
+* Business impact
+* Regression risk
+* Test repeatability
+
 Selected test cases were then automated to demonstrate:
-	•	Basic Cypress usage
-	•	Reliable selectors
-	•	Clear test intent
+* Basic Cypress usage
+* Reliable selectors
+* Clear test intent
 
-Tools & Technologies
-	•	Test Management: Jira, Zephyr Scale
-	•	Automation Framework: Cypress
-	•	Language: JavaScript
-	•	Version Control: GitHub
-	•	Browser: Chrome
+---
 
-How to Run Automated Tests
-	1	Clone the repository
-	2	Install dependencies:  	npm install 
-	3	Open Cypress Test Runner:  	npx cypress open 
-	4	Run tests from the Cypress UI
+## Tools & Technologies
+* **Test Management:** Jira, Zephyr Scale
+* **Automation Framework:** Cypress
+* **Language:** JavaScript
+* **Version Control:** GitHub
+* **Browser:** Chrome
 
-Known Limitations / Observations
-	•	Error messaging on login could be improved for clarity
-	•	No email confirmation after checkout (expected for real-world applications)
-	•	Test case ST-T7 has UI bug in the error message. Shown in manual testing, not tested for with automation.
+---
 
-Future Testing Ideas
-If testing were to continue, next steps would include:
-	•	Expanded regression automation
-	•	Expanded manual testing
-	•	More edge cases for login and checkout
-	•	Cross-browser testing
-	•	Exploratory testing
+## How to Run Automated Tests
 
-About This Project
-This project was created as an independent QA portfolio project to demonstrate:
-	•	Manual test case design and execution
-	•	Defect reporting and traceability
-	•	Entry-level automation using Cypress
-	•	Clear QA documentation and organization
+1. Clone the repository
+2. Install dependencies:
+```bash
+   npm install
