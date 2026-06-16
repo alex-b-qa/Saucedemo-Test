@@ -99,7 +99,7 @@ If testing were to continue, next steps would include:
 
 # How to Run Automated Tests
 
-# Cypress Test Setup – Sauce Demo
+## Cypress Test Setup – Sauce Demo
 
 This project contains end-to-end tests using **Cypress** for the Sauce Demo application.
 
