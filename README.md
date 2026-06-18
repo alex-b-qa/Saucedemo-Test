@@ -109,7 +109,7 @@ This project contains end-to-end tests using **Cypress** for the Sauce Demo appl
 
 Before running the tests, ensure the following are installed:
 
-- Node.js (v16 or later recommended)
+- Node.js (v22 is recommended)
 - npm (included with Node.js)
 - A supported browser - Chrome, Edge, (The Electron browser is included after you run npm install in step 4)
 - Python (version 3.12 or newer)
