@@ -135,23 +135,23 @@ Before running the tests, ensure the following are installed:
 
 After extracting the ZIP, you will have a folder:
 
-Saucedemo-Test-main/
+saucedemotest/
 
 This will be the project folder.
 
 ### 3. Open Terminal in the Project Folder
 
-All commands must be run inside the extracted Saucedemo-Test-main folder.
+All commands must be run inside the extracted saucedemotest folder.
 
 You can open a terminal using:
-- Mac Terminal: cd path/to/Saucedemo-Test-main
-- Windows PowerShell / Command Prompt: cd path\to\Saucedemo-Test-main
+- Mac Terminal: cd path/to/saucedemotest
+- Windows PowerShell / Command Prompt: cd path\to\saucedemotest
 
 ---
 
 ### 4. Install Dependencies
 
-In the Terminal / Command Prompt, run this command inside the Saucedemo-Test-main folder:
+In the Terminal / Command Prompt, run this command inside the saucedemotest folder:
 
 npm install
 
