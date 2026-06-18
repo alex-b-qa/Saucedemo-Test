@@ -144,8 +144,8 @@ This will be the project folder.
 
 All commands must be run inside the extracted saucedemotest folder.
 
-You can open a terminal using:
-- Mac Terminal: cd path/to/saucedemotest
+You can open a terminal and navigate to the project folder using the command below for your operating system:
+- MacOs Terminal: cd path/to/saucedemotest
 - Windows PowerShell / Command Prompt: cd path\to\saucedemotest
 
 ---
