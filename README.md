@@ -73,7 +73,6 @@ Selected test cases were then automated to demonstrate:
 
 ### Known Limitations / Observations
 - Error messaging on login could be improved for clarity
-- No email confirmation after checkout (expected for real-world applications)
 - Test case **ST-T7** has a UI bug in the error message  
   - Identified during manual testing  
   - Not covered by automation
@@ -139,6 +138,8 @@ After extracting the ZIP, you will have a folder:
 saucedemotest/
 
 This will be the project folder.
+
+---
 
 ### 3. Open Terminal in the Project Folder
 
