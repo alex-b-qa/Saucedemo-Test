@@ -36,7 +36,7 @@ This project documents end-to-end manual and automated testing performed on the 
 - Managed test cases and test execution using Jira and Zephyr Scale
 - Linked defects to related test cases for traceability  
 
-**📁 Location:**  
+**Location:**  
 `/manual-testing/`
 
 ### Defect Tracking
@@ -47,7 +47,7 @@ This project documents end-to-end manual and automated testing performed on the 
 - Tracked and managed bugs in Jira
 - Linked defects to corresponding test cases in Zephyr Scale  
 
-**📁 Location:**  
+**Location:**  
 `/bug-reports/`
 
 ### Automated Testing (Cypress)
@@ -58,7 +58,7 @@ This project documents end-to-end manual and automated testing performed on the 
   - Cart and checkout flow
 - Automation focused on repeatable, business-critical functionality  
 
-**📁 Location:**  
+**Location:**  
 `/SauceDemoTest/cypress/e2e/`
 
 ### Automation Strategy
