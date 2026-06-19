@@ -1,11 +1,12 @@
 # Sauce Demo – QA Testing Portfolio
 
-## Project Overview
+## Overview
 This project documents end-to-end manual and automated testing performed on the Sauce Demo web application, a sample e-commerce site.
 
-- **Application Under Test:** Sauce Demo  
+## Application Under Test:
+- **Application:** Sauce Demo  
 - **URL:** https://www.saucedemo.com  
-- **Testing Types:** Manual Testing, Automated Testing (Cypress)  
+- **Testing Types:** Black-box functional testing, manual testing, automated testing (Cypress)  
 - **Purpose:** Demonstrate practical QA skills including test case design, execution, defect tracking, and basic automation  
 
 ---
@@ -58,7 +59,7 @@ This project documents end-to-end manual and automated testing performed on the 
 - Automation focused on repeatable, business-critical functionality  
 
 **📁 Location:**  
-`/cypress-e2e/`
+`/SauceDemoTest/cypress/e2e/`
 
 ### Automation Strategy
 Manual test cases were reviewed and prioritized based on:
